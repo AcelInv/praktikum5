@@ -7,12 +7,12 @@ Route::get('/hello', function () {
     return 'Hello, World!';
 });
 
-Route::get('/about', function () {
-    return 'Ini adalah halaman About';
+Route::get('/hari', function () {
+    return 'Hari ini adalah hari selasa';
 });
 
 Route::get('/contact', function () {
-    return 'Ini adalah halaman Contact';
+    return 'contact yang bisa dihubungi: 08123456789';
 });
 
 Route::get('/user/{nama}', function ($nama) {
