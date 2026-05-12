@@ -1,18 +1,18 @@
+```php
 <?php
 
 use Illuminate\Support\Facades\Route;
 
-// 3 route mengembalikan string biasa
 Route::get('/hello', function () {
     return 'Hello, World!';
 });
 
-Route::get('/hari', function () {
-    return 'Hari ini adalah hari Selasa';
+Route::get('/about', function () {
+    return 'Ini adalah halaman About';
 });
 
 Route::get('/contact', function () {
-    return 'contact yang bisa dihubungi: 08123456789';
+    return 'Ini adalah halaman Contact';
 });
 
 Route::get('/user/{nama}', function ($nama) {
@@ -22,3 +22,4 @@ Route::get('/user/{nama}', function ($nama) {
 Route::get('/mahasiswa/{nim}', function ($nim) {
     return 'NIM Mahasiswa: ' . $nim;
 });
+```
