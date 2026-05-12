@@ -8,7 +8,7 @@ Route::get('/hello', function () {
 });
 
 Route::get('/hari', function () {
-    return 'Hari ini adalah hari Rabu';
+    return 'Hari ini adalah hari Selasa';
 });
 
 Route::get('/contact', function () {
