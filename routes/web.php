@@ -1,4 +1,3 @@
-```php
 <?php
 
 use Illuminate\Support\Facades\Route;
@@ -22,4 +21,3 @@ Route::get('/user/{nama}', function ($nama) {
 Route::get('/mahasiswa/{nim}', function ($nim) {
     return 'NIM Mahasiswa: ' . $nim;
 });
-```
